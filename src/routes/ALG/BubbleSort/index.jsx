@@ -28,6 +28,7 @@ const BubbleSort = () => {
   console.log(array)
   return (
     <>
+      <h1>Bubble Sort</h1>
       <button onClick={() => bubbleSortFunc(array)}>BubbleSort</button>
       <div>{JSON.stringify(array)}</div>
     </>
