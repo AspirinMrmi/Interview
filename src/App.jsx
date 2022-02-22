@@ -10,7 +10,7 @@ export default function App() {
         }}
       >
         <Link style={{margin: '0 2rem'}} to="BubbleSort">1. Bubble Sort</Link>
-        <Link style={{margin: '0 2rem'}} to="quickSort">1. Quick Sort</Link>
+        <Link style={{margin: '0 2rem'}} to="quickSort">2. Quick Sort</Link>
       </nav>
       <h1>Others</h1>
       <nav
