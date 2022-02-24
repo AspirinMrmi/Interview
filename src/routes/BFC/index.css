@@ -1,0 +1,12 @@
+.box {
+  margin: 100px;
+  width: 100px;
+  height: 100px;
+  background: red;
+  float: left;
+}
+.container {
+  background: #000;
+  /* 通过创建一个BFC解决float元素脱离文档流 高度塌陷的问题 */
+  display: inline-block;
+}

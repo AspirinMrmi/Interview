@@ -1,5 +1,7 @@
 ## 浏览器的渲染机制
 
+https://segmentfault.com/a/1190000017329980
+
 ### 1. 浏览器的渲染过程？
 
 ![render-pic](./images/render.png)
