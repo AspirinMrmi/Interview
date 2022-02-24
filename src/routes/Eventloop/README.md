@@ -43,7 +43,7 @@ setTimeout(fn, 0)的含义是，指定某个任务在主线程最早可得的空
 
 事件循环的顺序，决定js代码的执行顺序，进入宏任务后，开始第一次循环，接着执行所有的微任务，由此反复。
 
-```
+```javascript
 setTimeout(function() {
     console.log('setTimeout');
 })
@@ -70,7 +70,7 @@ console.log('console');
 
 分析一段复杂的代码：
 
-```
+```javascript
 console.log('1');
 
 setTimeout(function() {
