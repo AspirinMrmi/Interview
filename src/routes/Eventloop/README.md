@@ -7,7 +7,7 @@
 - 同步任务
 - 异步任务
 
-!(event)[./images/event.webp]
+![event](./images/event.webp)
 
 - 同步任务和异步任务分别进入不同的执行“场所”，同步的进入主线程，异步的进入Event Table并且注册回调函数；
 - 当指定的事情完成时，Event Table会将这个函数移入Event Queue；
@@ -66,7 +66,7 @@ console.log('console');
 
 事件循环，宏任务，微任务的关系如图所示：
 
-!(loop)[./images/loop.webp]
+![loop](./images/loop.webp)
 
 分析一段复杂的代码：
 
