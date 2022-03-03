@@ -1,6 +1,6 @@
 ## Array.prototype.reduce()
 
-<font color=red>reduce()</font> 方法对数组中的每个元素执行一个由您提供的reducer函数(升序执行)，将其结果汇总为单个返回值。
+`reduce()` 方法对数组中的每个元素执行一个由您提供的reducer函数(升序执行)，将其结果汇总为单个返回值。
 
 ```javascript
   const array = [1, 2, 3, 4];
@@ -25,23 +25,23 @@ arr.reduce(callback(accumulator, currentValue[, currentIndex[, array]])[, initia
 
 执行数组中的每个值（如果没有提供initialValue则第一个值除外）的函数，包含四个参数：
 
-<font color=red>accumulator</font>
+`accumulator`
 
 累计器累计回调的返回值，它是上一次调用回调时返回的累积值，或==initialValue==。
 
-<font color=red>currentValue</font>
+`currentValue`
 
 数组中正在处理的元素
 
-<font color=red>currentIndex</font>
+`currentIndex`
 
 数组中正在处理的当前元素的索引。如果提供了initialValue，则起始索引为0，否则索引从1开始。
 
-<font color=red>array</font>
+`array`
 
 调用reduce的数组
 
-<font color=red>initialValue</font>
+`initialValue`
 
 作为第一次调用callback函数时的第一个参数的值，如果没有提供initialValue，则将使用数组中的第一个元素。在没有初始值的空数组上调用reduce将会报错。
 
