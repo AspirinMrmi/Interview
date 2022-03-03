@@ -5,6 +5,8 @@ import BubbleSort from "./routes/ALG/BubbleSort";
 import IsArray from "./routes/isArray";
 import QuickSort from "./routes/ALG/QuickSort";
 import BFC from "./routes/BFC"
+import DeepClone from "./routes/DeepClone"
+import Reduce from "./routes/Array-Function/Reduce"
 
 const rootElement = document.getElementById("root");
 render((
@@ -15,6 +17,8 @@ render((
       <Route path="isArray" element={<IsArray />} />
       <Route path="quickSort" element={<QuickSort />} />
       <Route path="bfc" element={<BFC />} />
+      <Route path="deepClone" element={<DeepClone />} />
+      <Route path="reduce" element={<Reduce />} />
     </Routes>
   </BrowserRouter>
 ), rootElement);
